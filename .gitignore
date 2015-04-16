@@ -1,0 +1,5 @@
+*.mobileprovision
+*.ipa
+*.app.dSYM.zip
+Error*.png
+fastlane/report.xml

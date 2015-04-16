@@ -1,0 +1,19 @@
+apple_id ENV["APPLE_ID"]
+version ENV["APP_VERSION"]
+config_json_folder ENV["APP_METADATA"]
+screenshots_path ENV["APP_SCREENSHOTS"]
+app_identifier ENV["APP_IDENTIFIER"]
+
+ 
+#submit_further_information({
+#  export_compliance: {
+#    encryption_updated: false,
+#    cryptography_enabled: false,
+#    is_exempt: false
+#  },
+#  third_party_content: {
+#    contains_third_party_content: false,
+#    has_rights: false
+#  },
+#  advertising_identifier: true
+#})

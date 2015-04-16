@@ -1,1 +1,1 @@
-XCODE_WORKSPACE='BothApps.xcworkspace' XCODE_DESTINATION='fastlane/_build_app2' XCODE_SCHEME='App2' APP_IDENTIFIER='com.test.App2' APP_SCREENSHOTS='screenshots_app2' APP_METADATA='fastlane/metadata_app2' APP_VERSION='1.0.7' APPLE_ID='appleid@test.com' fastlane deploy
+DELIVER_USER='appleid@test.com' APP_IDENTIFIER='com.test.App2' XCODE_WORKSPACE='BothApps.xcworkspace' XCODE_DESTINATION='fastlane/_build_app2' XCODE_SCHEME='App2' APP_SCREENSHOTS='screenshots_app2' APP_METADATA='fastlane/metadata_app2' APP_VERSION='1.0.7' fastlane deploy

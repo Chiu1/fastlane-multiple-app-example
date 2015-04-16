@@ -7,6 +7,15 @@ lane :deploy do
     configuration: "Release",
     scheme: ENV['XCODE_SCHEME'],
     destination: ENV['XCODE_DESTINATION']
-  })
+  }) 
+
+  # this hides the nice bebug info...
+  # maybe there is a better way?
+  system("sigh -a $APP_IDENTIFIER -u $DELIVER_USER")
+
+  # this step currently errors out
+  # see: https://gist.github.com/iamjason/d9519c3bb8d7e78e3728
+  deliver :skip_deploy, :force
   
+
 end
