@@ -1,0 +1,12 @@
+fastlane_version "0.9.0"
+
+lane :deploy do
+
+  ipa({
+    workspace: ENV['XCODE_WORKSPACE'],
+    configuration: "Release",
+    scheme: ENV['XCODE_SCHEME'],
+    destination: ENV['XCODE_DESTINATION']
+  })
+  
+end

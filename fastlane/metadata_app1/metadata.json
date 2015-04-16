@@ -1,0 +1,11 @@
+{
+   "en-US":{
+      "title":"App1",
+      "version_whats_new":"Bug fixes.  UI updates",
+      "description":"description here...",
+      "software_url":"https://fastlane.tools/",
+      "support_url":"https://fastlane.tools/",
+      "privacy_url":"https://fastlane.tools/",
+      "keywords":["fastlane"]
+   }
+}

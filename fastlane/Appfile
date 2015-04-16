@@ -1,0 +1,5 @@
+apple_id ENV["APPLE_ID"]
+version ENV["APP_VERSION"]
+config_json_folder ENV["APP_METADATA"]
+screenshots_path ENV["APP_SCREENSHOTS"]
+app_identifier ENV["APP_IDENTIFIER"]
